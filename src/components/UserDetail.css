@@ -1,0 +1,117 @@
+
+.user-detail-container {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  .user-detail-header {
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+  }
+  
+  .user-avatar {
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    margin-right: 20px;
+    border: 3px solid #007bff;
+  }
+  
+  .user-info {
+    flex: 1;
+  }
+  
+  .user-name {
+    font-size: 24px;
+    margin: 0;
+    color: #333;
+  }
+  
+  .user-bio {
+    font-size: 16px;
+    color: #666;
+  }
+  
+  .user-profile-link {
+    display: inline-block;
+    margin-top: 10px;
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .user-profile-link:hover {
+    text-decoration: underline;
+  }
+  
+  .repos-section {
+    margin-top: 20px;
+  }
+  
+  .repos-section h2 {
+    font-size: 20px;
+    margin-bottom: 15px;
+    color: #333;
+  }
+  
+  .repo-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .repo-item {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  }
+  
+  .repo-name {
+    font-size: 18px;
+    margin: 0;
+    color: #007bff;
+  }
+  
+  .repo-language,
+  .repo-stats {
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .repo-stats {
+    display: flex;
+    gap: 15px;
+    margin-top: 5px;
+  }
+  
+  .repo-stars,
+  .repo-forks,
+  .repo-issues {
+    display: flex;
+    align-items: center;
+  }
+  
+  .repo-stars::before {
+    content: '⭐';
+    margin-right: 5px;
+  }
+  
+  .repo-forks::before {
+    content: '🍴';
+    margin-right: 5px;
+  }
+  
+  .repo-issues::before {
+    content: '📝';
+    margin-right: 5px;
+  }
+  
